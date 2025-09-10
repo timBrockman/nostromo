@@ -1,0 +1,27 @@
+{
+  "name": "nostromocss",
+  "version": "1.0.0",
+  "description": "Retro themed Classless CSS library",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbrockman/nostromocss.git"
+  },
+  "keywords": [
+    "classless",
+    "css",
+    "minimal",
+    "css",
+    "retro",
+    "terminal"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/timbrockman/nostromocss/issues"
+  },
+  "homepage": "https://github.com/timbrockman/nostromocss#readme"
+}

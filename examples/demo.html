@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nostromo CSS Demo</title>
+  <link rel="stylesheet" href="../css/nostromo.min.css">
+</head>
+<body>
+  <header>
+    <h1>USCSS Nostromo: Terminal Demo</h1>
+    <nav>
+      <a href="#logs">System Logs</a> |
+      <a href="#ascii">ASCII Art</a> |
+      <a href="#forms">Forms</a>
+    </nav>
+  </header>
+  <main>
+    <section id="logs">
+      <h2>System Logs</h2>
+      <pre>
+[2025-09-17 04:00] BOOT SEQUENCE INITIATED
+[2025-09-17 04:01] CRYO SLEEP: ALL CREW ACCOUNTED FOR
+[2025-09-17 04:02] MOTHER: SYSTEMS NOMINAL
+      </pre>
+    </section>
+    <section id="ascii">
+      <h2>ASCII Art: Xenomorph</h2>
+      <pre>
+        .-"""-.
+       / _   _ \
+      (  o   o  )
+       |   ^   |
+       |  '-'  |
+        \_____/
+      </pre>
+    </section>
+    <section id="forms">
+      <h2>Sample Form</h2>
+      <form>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Ripley">
+        <label for="role">Role</label>
+        <select id="role" name="role">
+          <option>Warrant Officer</option>
+          <option>Science Officer</option>
+          <option>Engineer</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="table">
+      <h2>Crew Manifest</h2>
+      <table>
+        <thead>
+          <tr><th>Name</th><th>Role</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Ripley</td><td>Warrant Officer</td></tr>
+          <tr><td>Ash</td><td>Science Officer</td></tr>
+          <tr><td>Parker</td><td>Engineer</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2122 Weyland-Yutani Corp. | <a href="#">Switch to Light Mode</a></p>
+  </footer>
+</body>
+</html>
